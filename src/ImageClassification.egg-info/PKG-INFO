@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ImageClassification
+Version: 0.0.0
+Summary: Python package for CNN Image Classification on Chicken Disease Dataset
+Home-page: https://github.com/psun6789/DL_Chicken_Disease_Classification_AWS_AZURE_DVC
+Author: psun6789
+Author-email: petersunny6789@gmail.com
+Project-URL: Bug Tracker, https://github.com/psun6789/DL_Chicken_Disease_Classification_AWS_AZURE_DVC/issue
+
+# ML_DL_Projects
+# Project Name: Chicken Disease Image Classification
+# Dataset Link : https://www.kaggle.com/datasets/efoeetienneblavo/chicken-disease-dataset?select=chicken_disease
+# Virtual Environment:DLMLops_DVC_Azure_AWS

@@ -1,0 +1,11 @@
+Folder Name : DL_Chicken_Disease_Classification_AWS_AZURE_DVC
+
+Course Name: End To End Deep Learning Project Using MLOPS DVC Pipeline With Deployments Azure And AWS- Krish Naik
+
+Youtube Link: https://www.youtube.com/watch?v=p1bfK8ZJgkE
+
+Dataset Link : https://www.kaggle.com/datasets/efoeetienneblavo/chicken-disease-dataset?select=chicken_disease
+
+Virtual Environment:DLMLops_DVC_Azure_AWS
+
+****************************************************************************************************************************
