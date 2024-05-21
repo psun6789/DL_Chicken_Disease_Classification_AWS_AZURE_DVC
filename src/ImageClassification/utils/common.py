@@ -24,15 +24,23 @@ def read_yaml(path_to_yaml: Path) -> ConfigBox:
         Returns:
             ConfigBox: ConfigBox type
     '''
+
     try:
-        with open(path_to_yaml) as yaml_file:
+        with open(path_to_yaml, 'r') as yaml_file:
             content = yaml.safe_load(yaml_file)
+            print(f"YAML content: {content}")  # Log the content for debugging
+            if not content:
+                raise ValueError('YAML file is empty')
             logger.info(f'YAML file: {path_to_yaml} loaded successfully')
+            logger.debug(f'YAML content: {content}')  # Log the content for debugging
             return ConfigBox(content)
-    except BoxValueError:
-        raise ValueError('yaml file is empty')
+    except BoxValueError as e:
+        logger.error(f'Error creating ConfigBox: {e}')
+        raise ValueError('Error converting YAML content to ConfigBox')
     except Exception as e:
+        logger.error(f'Unexpected error: {e}')
         raise e
+
 
 @ensure_annotations
 def create_directories(path_to_directories: list, verbosa=True):

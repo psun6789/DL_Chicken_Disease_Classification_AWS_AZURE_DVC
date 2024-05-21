@@ -1,0 +1,106 @@
+[2024-05-21 15:44:53,148: INFO: common: YAML file: C:\Users\Nimbus\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\_02_DL_MLOPS_DVC_AZURE_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\config\config.yaml loaded successfully]
+[2024-05-21 15:45:47,568: INFO: common: YAML file: C:\Users\Nimbus\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\_02_DL_MLOPS_DVC_AZURE_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\config\config.yaml loaded successfully]
+[2024-05-21 15:45:47,570: INFO: common: YAML file: C:\Users\Nimbus\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\_02_DL_MLOPS_DVC_AZURE_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\params.yaml loaded successfully]
+[2024-05-21 15:47:32,875: INFO: common: YAML file: C:\Users\Nimbus\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\_02_DL_MLOPS_DVC_AZURE_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\config\config.yaml loaded successfully]
+[2024-05-21 15:47:32,877: INFO: common: YAML file: C:\Users\Nimbus\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\_02_DL_MLOPS_DVC_AZURE_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\params.yaml loaded successfully]
+[2024-05-21 15:57:54,067: INFO: 2944368999: YAML file: C:\Users\Nimbus\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\_02_DL_MLOPS_DVC_AZURE_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\config\config.yaml loaded successfully]
+[2024-05-21 15:57:54,069: INFO: 2944368999: YAML file: C:\Users\Nimbus\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\_02_DL_MLOPS_DVC_AZURE_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\params.yaml loaded successfully]
+[2024-05-21 15:57:54,070: ERROR: 2944368999: Error loading YAML file: Cannot extrapolate Box from string]
+[2024-05-21 15:58:58,599: INFO: 2944368999: YAML file: C:\Users\Nimbus\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\_02_DL_MLOPS_DVC_AZURE_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\config\config.yaml loaded successfully]
+[2024-05-21 15:58:58,601: INFO: 2944368999: YAML file: C:\Users\Nimbus\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\_02_DL_MLOPS_DVC_AZURE_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\params.yaml loaded successfully]
+[2024-05-21 15:58:58,603: ERROR: 2944368999: Error loading YAML file: Cannot extrapolate Box from string]
+[2024-05-21 17:01:46,772: INFO: common: YAML file: C:\Users\Nimbus\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\_02_DL_MLOPS_DVC_AZURE_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\config\config.yaml loaded successfully]
+[2024-05-21 17:01:46,774: INFO: common: YAML file: C:\Users\Nimbus\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\_02_DL_MLOPS_DVC_AZURE_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\params.yaml loaded successfully]
+[2024-05-21 17:04:37,279: INFO: common: YAML file: ..\config\config.yaml loaded successfully]
+[2024-05-21 17:05:01,508: INFO: common: YAML file: ..\config\config.yaml loaded successfully]
+[2024-05-21 17:05:12,963: INFO: common: YAML file: ..\config\config.yaml loaded successfully]
+[2024-05-21 17:05:12,965: INFO: common: YAML file: ..\params.yaml loaded successfully]
+[2024-05-21 17:06:02,815: INFO: common: YAML file: ..\config\config.yaml loaded successfully]
+[2024-05-21 17:06:02,818: INFO: common: YAML file: ..\params.yaml loaded successfully]
+[2024-05-21 17:06:14,129: INFO: common: YAML file: ..\config\config.yaml loaded successfully]
+[2024-05-21 17:06:14,131: INFO: common: YAML file: ..\params.yaml loaded successfully]
+[2024-05-21 17:09:25,803: INFO: common: YAML file: ..\config\config.yaml loaded successfully]
+[2024-05-21 17:09:25,805: INFO: common: YAML file: ..\params.yaml loaded successfully]
+[2024-05-21 17:09:37,201: INFO: common: YAML file: ..\config\config.yaml loaded successfully]
+[2024-05-21 17:09:37,203: INFO: common: YAML file: ..\params.yaml loaded successfully]
+[2024-05-21 17:10:07,205: INFO: common: YAML file: ..\config\config.yaml loaded successfully]
+[2024-05-21 17:10:07,207: INFO: common: YAML file: ..\params.yaml loaded successfully]
+[2024-05-21 17:12:36,268: INFO: common: YAML file: ..\config\config.yaml loaded successfully]
+[2024-05-21 17:19:23,502: INFO: common: YAML file: ..\config\config.yaml loaded successfully]
+[2024-05-21 17:19:23,505: INFO: common: YAML file: ..\params.yaml loaded successfully]
+[2024-05-21 17:19:39,260: INFO: common: YAML file: ..\config\config.yaml loaded successfully]
+[2024-05-21 17:19:39,262: INFO: common: YAML file: ..\params.yaml loaded successfully]
+[2024-05-21 17:21:11,853: INFO: common: YAML file: ..\config\config.yaml loaded successfully]
+[2024-05-21 17:21:29,179: INFO: common: YAML file: ..\config\config.yaml loaded successfully]
+[2024-05-21 17:21:49,282: INFO: common: YAML file: ..\config\config.yaml loaded successfully]
+[2024-05-21 17:21:49,284: INFO: common: YAML file: ..\params.yaml loaded successfully]
+[2024-05-21 17:25:53,288: INFO: common: YAML file: ..\config\config.yaml loaded successfully]
+[2024-05-21 17:25:53,290: INFO: common: YAML file: ..\params.yaml loaded successfully]
+[2024-05-21 17:26:34,152: INFO: common: YAML file: ..\config\config.yaml loaded successfully]
+[2024-05-21 17:26:34,153: INFO: common: YAML file: ..\params.yaml loaded successfully]
+[2024-05-21 17:26:42,726: INFO: common: YAML file: ..\config\config.yaml loaded successfully]
+[2024-05-21 17:26:42,728: INFO: common: YAML file: ..\params.yaml loaded successfully]
+[2024-05-21 17:26:42,728: ERROR: common: Error creating ConfigBox: Cannot extrapolate Box from string]
+[2024-05-21 17:42:27,966: INFO: common: YAML file: C:\Users\Nimbus\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\_02_DL_MLOPS_DVC_AZURE_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\config\config.yaml loaded successfully]
+[2024-05-21 17:42:27,969: INFO: common: YAML file: C:\Users\Nimbus\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\_02_DL_MLOPS_DVC_AZURE_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\params.yaml loaded successfully]
+[2024-05-21 17:42:27,970: ERROR: common: Error creating ConfigBox: Cannot extrapolate Box from string]
+[2024-05-21 17:54:33,301: INFO: common: YAML file: C:\Users\Nimbus\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\_02_DL_MLOPS_DVC_AZURE_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\config\config.yaml loaded successfully]
+[2024-05-21 17:54:33,304: INFO: common: YAML file: C:\Users\Nimbus\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\_02_DL_MLOPS_DVC_AZURE_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\params.yaml loaded successfully]
+[2024-05-21 17:54:33,305: ERROR: common: Error creating ConfigBox: Cannot extrapolate Box from string]
+[2024-05-21 17:56:02,030: ERROR: common: Unexpected error: YAML file is empty]
+[2024-05-21 18:00:04,212: ERROR: common: Unexpected error: [Errno 2] No such file or directory: 'config\\config.yaml']
+[2024-05-21 18:00:04,212: ERROR: 1214791517: Error during data ingestion: [Errno 2] No such file or directory: 'config\\config.yaml']
+[2024-05-21 18:00:38,918: INFO: common: YAML file: C:\Users\Nimbus\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\_02_DL_MLOPS_DVC_AZURE_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\config\config.yaml loaded successfully]
+[2024-05-21 18:00:38,920: INFO: common: YAML file: C:\Users\Nimbus\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\_02_DL_MLOPS_DVC_AZURE_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\params.yaml loaded successfully]
+[2024-05-21 18:00:38,921: ERROR: common: Error creating ConfigBox: Cannot extrapolate Box from string]
+[2024-05-21 18:00:38,922: ERROR: 1214791517: Error during data ingestion: Error converting YAML content to ConfigBox]
+[2024-05-21 18:03:52,857: INFO: common: YAML file: C:\Users\Nimbus\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\_02_DL_MLOPS_DVC_AZURE_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\config\config.yaml loaded successfully]
+[2024-05-21 18:03:52,859: INFO: common: YAML file: C:\Users\Nimbus\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\_02_DL_MLOPS_DVC_AZURE_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\params.yaml loaded successfully]
+[2024-05-21 18:03:52,861: INFO: common: Created Directory at : artifacts]
+[2024-05-21 18:03:52,862: INFO: common: Created Directory at : artifacts/data_ingestion]
+[2024-05-21 18:03:55,502: INFO: 1214791517: artifacts/data_ingestion/data.zip downloaded! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 71FF:8916A:75F99:13FDD6:664CD3F4
+Accept-Ranges: bytes
+Date: Tue, 21 May 2024 17:03:55 GMT
+Via: 1.1 varnish
+X-Served-By: cache-dub4347-DUB
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1716311034.305105,VS0,VE1132
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 317db8682eba104e1f69242789e60a1e53edb016
+Expires: Tue, 21 May 2024 17:08:55 GMT
+Source-Age: 1
+
+]
+[2024-05-21 18:05:13,576: INFO: common: YAML file: C:\Users\Nimbus\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\_02_DL_MLOPS_DVC_AZURE_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\config\config.yaml loaded successfully]
+[2024-05-21 18:05:13,578: INFO: common: YAML file: C:\Users\Nimbus\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\_02_DL_MLOPS_DVC_AZURE_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\params.yaml loaded successfully]
+[2024-05-21 18:05:13,580: INFO: common: Created Directory at : artifacts]
+[2024-05-21 18:05:13,581: INFO: common: Created Directory at : artifacts/data_ingestion]
+[2024-05-21 18:05:13,583: INFO: 1214791517: File already exists of size: ~ 11345 KB]
+[2024-05-21 18:07:51,501: INFO: common: YAML file: C:\Users\Nimbus\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\_02_DL_MLOPS_DVC_AZURE_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\config\config.yaml loaded successfully]
+[2024-05-21 18:07:51,503: INFO: common: YAML file: C:\Users\Nimbus\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\_02_DL_MLOPS_DVC_AZURE_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\params.yaml loaded successfully]
+[2024-05-21 18:07:51,504: INFO: common: Created Directory at : artifacts]
+[2024-05-21 18:07:51,505: INFO: common: Created Directory at : artifacts/data_ingestion]
+[2024-05-21 18:09:18,362: INFO: common: YAML file: C:\Users\Nimbus\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\_02_DL_MLOPS_DVC_AZURE_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\config\config.yaml loaded successfully]
+[2024-05-21 18:09:18,364: INFO: common: YAML file: C:\Users\Nimbus\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\_02_DL_MLOPS_DVC_AZURE_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\params.yaml loaded successfully]
+[2024-05-21 18:09:18,366: INFO: common: Created Directory at : artifacts]
+[2024-05-21 18:09:18,367: INFO: common: Created Directory at : artifacts/data_ingestion]
+[2024-05-21 18:09:18,368: INFO: 2462356770: File already exists of size: ~ 11345 KB]
+[2024-05-21 18:23:18,148: INFO: common: YAML file: C:\Users\Nimbus\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\_02_DL_MLOPS_DVC_AZURE_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\config\config.yaml loaded successfully]
+[2024-05-21 18:23:18,150: INFO: common: YAML file: C:\Users\Nimbus\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\_02_DL_MLOPS_DVC_AZURE_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\params.yaml loaded successfully]
+[2024-05-21 18:23:18,151: INFO: common: Created Directory at : artifacts]
+[2024-05-21 18:23:18,152: INFO: common: Created Directory at : artifacts/data_ingestion]
+[2024-05-21 18:23:18,153: INFO: 2462356770: File already exists of size: ~ 11345 KB]
