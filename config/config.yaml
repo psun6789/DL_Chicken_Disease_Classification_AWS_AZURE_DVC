@@ -1,0 +1,14 @@
+artifacts_root: artifacts
+data_root_path : 'C:/Users/petersunny.markappa/_00_Peter_Practice_Projects/_02_In_Progress/_02_ML_Projects_Krish_Naik_Course_list/02_DL_MLOPS_DVC_Azure_AWS/_data_DL_Chicken_Disease_Classification_AWS_AZURE_DVC'
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  train_dir: train
+  validation_dir: validation
+  test_dir: 
+
+  # ### This path are used in data_ingestino.ipynb under class DataIngestion
+  # source_URL: 'URL of the Dataset from internet'
+  # local_data_file: artifacts/data_ingestion/data.zip
+  # unzip_dir: artifacts/data_ingestion
+
