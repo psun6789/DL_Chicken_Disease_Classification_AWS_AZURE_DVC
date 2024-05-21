@@ -6,6 +6,9 @@ artifacts_root: artifacts
 #   source_URL: https://drive.google.com/file/d/1xi8NeALtgToc2GONJuv1AoTwTY62RPVg/view?usp=drive_link
 #   local_data_file: artifacts/data_ingestion/data.zip
 #   unzip_dir: artifacts/data_ingestion
+  # train_dir: ''
+  # validation_dir: ''
+  # test_dir: ''
 
 # data_root_path : 'C:/Users/petersunny.markappa/_00_Peter_Practice_Projects/_02_In_Progress/_02_ML_Projects_Krish_Naik_Course_list/02_DL_MLOPS_DVC_Azure_AWS/_data_DL_Chicken_Disease_Classification_AWS_AZURE_DVC'
 data_root_path : 'C:/Users\Nimbus/_00_Peter_Practice_Projects/_02_In_Progress/_02_ML_Projects_Krish_Naik_Course_list/_02_DL_MLOPS_DVC_AZURE_AWS/DL_Chicken_Disease_Classification_AWS_AZURE_DVC/_data'
