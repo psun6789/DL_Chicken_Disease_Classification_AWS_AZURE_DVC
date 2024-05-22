@@ -94,3 +94,8 @@ zipfile.BadZipFile: File is not a zip file
 [2024-05-22 14:11:40,011: INFO: common: YAML file: C:\Users\petersunny.markappa\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\02_DL_MLOPS_DVC_Azure_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\params.yaml loaded successfully]
 [2024-05-22 14:11:40,012: INFO: common: Created Directory at : artifacts]
 [2024-05-22 14:11:42,948: INFO: main: ......... Stage Data Ingestion Stage Completed .......!!!!!!]
+[2024-05-22 15:01:27,528: INFO: main: ........ Stage Data Ingestion Stage started........!!!!!!!!]
+[2024-05-22 15:01:27,530: INFO: common: YAML file: C:\Users\petersunny.markappa\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\02_DL_MLOPS_DVC_Azure_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\config\config.yaml loaded successfully]
+[2024-05-22 15:01:27,530: INFO: common: YAML file: C:\Users\petersunny.markappa\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\02_DL_MLOPS_DVC_Azure_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\params.yaml loaded successfully]
+[2024-05-22 15:01:27,532: INFO: data_ingestion: File already exists of size: ~ 11345 KB]
+[2024-05-22 15:01:27,919: INFO: main: ......... Stage Data Ingestion Stage Completed .......!!!!!!]

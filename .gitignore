@@ -9,4 +9,6 @@ dmypy.json
 # Cython debug symbols
 cython/debug/
 
+_data/*
+
 artifacts/*
