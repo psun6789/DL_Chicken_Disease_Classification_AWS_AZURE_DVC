@@ -1,1 +1,96 @@
-[2024-05-20 18:15:51,376: INFO: main: Welcome to Custom Log Image Classification]
+[2024-05-22 13:55:14,067: INFO: main: ........ Stage Data Ingestion Stage started........!!!!!!!!]
+[2024-05-22 13:55:14,068: INFO: common: YAML file: C:\Users\petersunny.markappa\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\02_DL_MLOPS_DVC_Azure_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\config\config.yaml loaded successfully]
+[2024-05-22 13:55:14,069: INFO: common: YAML file: C:\Users\petersunny.markappa\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\02_DL_MLOPS_DVC_Azure_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\params.yaml loaded successfully]
+[2024-05-22 13:55:14,070: INFO: common: Created Directory at : artifacts]
+[2024-05-22 13:55:14,902: ERROR: state_01_data_ingestion: Error during data ingestion: [Errno 2] No such file or directory: 'artifacts\\data_ingestion\\data.zip']
+[2024-05-22 13:55:14,903: ERROR: main: [Errno 2] No such file or directory: 'artifacts\\data_ingestion\\data.zip']
+Traceback (most recent call last):
+  File "C:\Users\petersunny.markappa\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\02_DL_MLOPS_DVC_Azure_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\main.py", line 11, in <module>
+    obj.main()
+  File "c:\users\petersunny.markappa\_00_peter_practice_projects\_02_in_progress\_02_ml_projects_krish_naik_course_list\02_dl_mlops_dvc_azure_aws\dl_chicken_disease_classification_aws_azure_dvc\src\ImageClassification\pipeline\state_01_data_ingestion.py", line 21, in main
+    raise e
+  File "c:\users\petersunny.markappa\_00_peter_practice_projects\_02_in_progress\_02_ml_projects_krish_naik_course_list\02_dl_mlops_dvc_azure_aws\dl_chicken_disease_classification_aws_azure_dvc\src\ImageClassification\pipeline\state_01_data_ingestion.py", line 17, in main
+    data_ingestion.download_file()
+  File "c:\users\petersunny.markappa\_00_peter_practice_projects\_02_in_progress\_02_ml_projects_krish_naik_course_list\02_dl_mlops_dvc_azure_aws\dl_chicken_disease_classification_aws_azure_dvc\src\ImageClassification\components\data_ingestion.py", line 17, in download_file
+    filename, headers = request.urlretrieve(
+  File "C:\Users\petersunny.markappa\Anaconda3\envs\DLMLops_DVC_Azure_AWS\lib\urllib\request.py", line 249, in urlretrieve
+    tfp = open(filename, 'wb')
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts\\data_ingestion\\data.zip'
+[2024-05-22 13:58:19,022: INFO: main: ........ Stage Data Ingestion Stage started........!!!!!!!!]
+[2024-05-22 13:58:19,024: INFO: common: YAML file: C:\Users\petersunny.markappa\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\02_DL_MLOPS_DVC_Azure_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\config\config.yaml loaded successfully]
+[2024-05-22 13:58:19,025: INFO: common: YAML file: C:\Users\petersunny.markappa\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\02_DL_MLOPS_DVC_Azure_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\params.yaml loaded successfully]
+[2024-05-22 13:58:20,028: ERROR: state_01_data_ingestion: Error during data ingestion: [Errno 2] No such file or directory: 'artifacts\\data_ingestion\\data.zip']
+[2024-05-22 13:58:20,028: ERROR: main: [Errno 2] No such file or directory: 'artifacts\\data_ingestion\\data.zip']
+Traceback (most recent call last):
+  File "C:\Users\petersunny.markappa\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\02_DL_MLOPS_DVC_Azure_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\main.py", line 11, in <module>
+    obj.main()
+  File "c:\users\petersunny.markappa\_00_peter_practice_projects\_02_in_progress\_02_ml_projects_krish_naik_course_list\02_dl_mlops_dvc_azure_aws\dl_chicken_disease_classification_aws_azure_dvc\src\ImageClassification\pipeline\state_01_data_ingestion.py", line 21, in main
+    raise e
+  File "c:\users\petersunny.markappa\_00_peter_practice_projects\_02_in_progress\_02_ml_projects_krish_naik_course_list\02_dl_mlops_dvc_azure_aws\dl_chicken_disease_classification_aws_azure_dvc\src\ImageClassification\pipeline\state_01_data_ingestion.py", line 17, in main
+    data_ingestion.download_file()
+  File "c:\users\petersunny.markappa\_00_peter_practice_projects\_02_in_progress\_02_ml_projects_krish_naik_course_list\02_dl_mlops_dvc_azure_aws\dl_chicken_disease_classification_aws_azure_dvc\src\ImageClassification\components\data_ingestion.py", line 17, in download_file
+    filename, headers = request.urlretrieve(
+  File "C:\Users\petersunny.markappa\Anaconda3\envs\DLMLops_DVC_Azure_AWS\lib\urllib\request.py", line 249, in urlretrieve
+    tfp = open(filename, 'wb')
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts\\data_ingestion\\data.zip'
+[2024-05-22 13:59:47,561: INFO: main: ........ Stage Data Ingestion Stage started........!!!!!!!!]
+[2024-05-22 13:59:47,562: INFO: common: YAML file: C:\Users\petersunny.markappa\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\02_DL_MLOPS_DVC_Azure_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\config\config.yaml loaded successfully]
+[2024-05-22 13:59:47,563: INFO: common: YAML file: C:\Users\petersunny.markappa\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\02_DL_MLOPS_DVC_Azure_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\params.yaml loaded successfully]
+[2024-05-22 13:59:48,506: ERROR: state_01_data_ingestion: Error during data ingestion: [Errno 2] No such file or directory: 'artifacts\\data_ingestion\\data.zip']
+[2024-05-22 13:59:48,507: ERROR: main: [Errno 2] No such file or directory: 'artifacts\\data_ingestion\\data.zip']
+Traceback (most recent call last):
+  File "C:\Users\petersunny.markappa\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\02_DL_MLOPS_DVC_Azure_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\main.py", line 11, in <module>
+    obj.main()
+  File "c:\users\petersunny.markappa\_00_peter_practice_projects\_02_in_progress\_02_ml_projects_krish_naik_course_list\02_dl_mlops_dvc_azure_aws\dl_chicken_disease_classification_aws_azure_dvc\src\ImageClassification\pipeline\state_01_data_ingestion.py", line 21, in main
+    raise e
+  File "c:\users\petersunny.markappa\_00_peter_practice_projects\_02_in_progress\_02_ml_projects_krish_naik_course_list\02_dl_mlops_dvc_azure_aws\dl_chicken_disease_classification_aws_azure_dvc\src\ImageClassification\pipeline\state_01_data_ingestion.py", line 17, in main
+    data_ingestion.download_file()
+  File "c:\users\petersunny.markappa\_00_peter_practice_projects\_02_in_progress\_02_ml_projects_krish_naik_course_list\02_dl_mlops_dvc_azure_aws\dl_chicken_disease_classification_aws_azure_dvc\src\ImageClassification\components\data_ingestion.py", line 17, in download_file
+    filename, headers = request.urlretrieve(
+  File "C:\Users\petersunny.markappa\Anaconda3\envs\DLMLops_DVC_Azure_AWS\lib\urllib\request.py", line 249, in urlretrieve
+    tfp = open(filename, 'wb')
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts\\data_ingestion\\data.zip'
+[2024-05-22 14:00:44,900: INFO: main: ........ Stage Data Ingestion Stage started........!!!!!!!!]
+[2024-05-22 14:00:44,901: INFO: common: YAML file: C:\Users\petersunny.markappa\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\02_DL_MLOPS_DVC_Azure_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\config\config.yaml loaded successfully]
+[2024-05-22 14:00:44,902: INFO: common: YAML file: C:\Users\petersunny.markappa\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\02_DL_MLOPS_DVC_Azure_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\params.yaml loaded successfully]
+[2024-05-22 14:00:46,936: INFO: main: ......... Stage Data Ingestion Stage Completed .......!!!!!!]
+[2024-05-22 14:06:32,419: INFO: main: ........ Stage Data Ingestion Stage started........!!!!!!!!]
+[2024-05-22 14:06:32,420: INFO: common: YAML file: C:\Users\petersunny.markappa\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\02_DL_MLOPS_DVC_Azure_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\config\config.yaml loaded successfully]
+[2024-05-22 14:06:32,421: INFO: common: YAML file: C:\Users\petersunny.markappa\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\02_DL_MLOPS_DVC_Azure_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\params.yaml loaded successfully]
+[2024-05-22 14:06:32,423: INFO: data_ingestion: File already exists of size: ~ 11345 KB]
+[2024-05-22 14:06:32,820: INFO: main: ......... Stage Data Ingestion Stage Completed .......!!!!!!]
+[2024-05-22 14:08:43,883: INFO: main: ........ Stage Data Ingestion Stage started........!!!!!!!!]
+[2024-05-22 14:08:43,884: INFO: common: YAML file: C:\Users\petersunny.markappa\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\02_DL_MLOPS_DVC_Azure_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\config\config.yaml loaded successfully]
+[2024-05-22 14:08:43,885: INFO: common: YAML file: C:\Users\petersunny.markappa\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\02_DL_MLOPS_DVC_Azure_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\params.yaml loaded successfully]
+[2024-05-22 14:08:43,887: INFO: data_ingestion: File already exists of size: ~ 11345 KB]
+[2024-05-22 14:08:44,290: INFO: main: ......... Stage Data Ingestion Stage Completed .......!!!!!!]
+[2024-05-22 14:10:13,838: INFO: main: ........ Stage Data Ingestion Stage started........!!!!!!!!]
+[2024-05-22 14:10:13,839: INFO: common: YAML file: C:\Users\petersunny.markappa\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\02_DL_MLOPS_DVC_Azure_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\config\config.yaml loaded successfully]
+[2024-05-22 14:10:13,840: INFO: common: YAML file: C:\Users\petersunny.markappa\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\02_DL_MLOPS_DVC_Azure_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\params.yaml loaded successfully]
+[2024-05-22 14:10:13,841: INFO: common: Created Directory at : artifacts]
+[2024-05-22 14:10:16,962: INFO: main: ......... Stage Data Ingestion Stage Completed .......!!!!!!]
+[2024-05-22 14:10:43,910: INFO: main: ........ Stage Data Ingestion Stage started........!!!!!!!!]
+[2024-05-22 14:10:43,912: INFO: common: YAML file: C:\Users\petersunny.markappa\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\02_DL_MLOPS_DVC_Azure_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\config\config.yaml loaded successfully]
+[2024-05-22 14:10:43,913: INFO: common: YAML file: C:\Users\petersunny.markappa\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\02_DL_MLOPS_DVC_Azure_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\params.yaml loaded successfully]
+[2024-05-22 14:10:43,913: INFO: common: Created Directory at : artifacts]
+[2024-05-22 14:10:44,706: ERROR: state_01_data_ingestion: Error during data ingestion: File is not a zip file]
+[2024-05-22 14:10:44,707: ERROR: main: File is not a zip file]
+Traceback (most recent call last):
+  File "C:\Users\petersunny.markappa\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\02_DL_MLOPS_DVC_Azure_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\main.py", line 11, in <module>
+    obj.main()
+  File "c:\users\petersunny.markappa\_00_peter_practice_projects\_02_in_progress\_02_ml_projects_krish_naik_course_list\02_dl_mlops_dvc_azure_aws\dl_chicken_disease_classification_aws_azure_dvc\src\ImageClassification\pipeline\state_01_data_ingestion.py", line 21, in main
+    raise e
+  File "c:\users\petersunny.markappa\_00_peter_practice_projects\_02_in_progress\_02_ml_projects_krish_naik_course_list\02_dl_mlops_dvc_azure_aws\dl_chicken_disease_classification_aws_azure_dvc\src\ImageClassification\pipeline\state_01_data_ingestion.py", line 18, in main
+    data_ingestion.extract_zip_file()
+  File "c:\users\petersunny.markappa\_00_peter_practice_projects\_02_in_progress\_02_ml_projects_krish_naik_course_list\02_dl_mlops_dvc_azure_aws\dl_chicken_disease_classification_aws_azure_dvc\src\ImageClassification\components\data_ingestion.py", line 73, in extract_zip_file
+    with zipfile.ZipFile(self.config.local_data_file, 'r') as zip_ref:
+  File "C:\Users\petersunny.markappa\Anaconda3\envs\DLMLops_DVC_Azure_AWS\lib\zipfile.py", line 1257, in __init__
+    self._RealGetContents()
+  File "C:\Users\petersunny.markappa\Anaconda3\envs\DLMLops_DVC_Azure_AWS\lib\zipfile.py", line 1324, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+[2024-05-22 14:11:40,009: INFO: main: ........ Stage Data Ingestion Stage started........!!!!!!!!]
+[2024-05-22 14:11:40,010: INFO: common: YAML file: C:\Users\petersunny.markappa\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\02_DL_MLOPS_DVC_Azure_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\config\config.yaml loaded successfully]
+[2024-05-22 14:11:40,011: INFO: common: YAML file: C:\Users\petersunny.markappa\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\02_DL_MLOPS_DVC_Azure_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\params.yaml loaded successfully]
+[2024-05-22 14:11:40,012: INFO: common: Created Directory at : artifacts]
+[2024-05-22 14:11:42,948: INFO: main: ......... Stage Data Ingestion Stage Completed .......!!!!!!]

@@ -1,22 +1,31 @@
 artifacts_root: artifacts
 
-# # Use this when getting data from url
-# data_ingestion:
-#   root_dir: artifacts/data_ingestion
-#   source_URL: https://drive.google.com/file/d/1xi8NeALtgToc2GONJuv1AoTwTY62RPVg/view?usp=drive_link
-#   local_data_file: artifacts/data_ingestion/data.zip
-#   unzip_dir: artifacts/data_ingestion
-  # train_dir: ''
-  # validation_dir: ''
-  # test_dir: ''
 
-# data_root_path : 'C:/Users/petersunny.markappa/_00_Peter_Practice_Projects/_02_In_Progress/_02_ML_Projects_Krish_Naik_Course_list/02_DL_MLOPS_DVC_Azure_AWS/_data_DL_Chicken_Disease_Classification_AWS_AZURE_DVC'
-data_root_path : 'C:/Users\Nimbus/_00_Peter_Practice_Projects/_02_In_Progress/_02_ML_Projects_Krish_Naik_Course_list/_02_DL_MLOPS_DVC_AZURE_AWS/DL_Chicken_Disease_Classification_AWS_AZURE_DVC/_data'
+# ##### use this when you are loading from url else comment this
+
+data_root_path : ''
+# Use this when getting data from url
 data_ingestion:
   root_dir: artifacts/data_ingestion
-  train_dir: train
-  validation_dir: validation
-  test_dir: test
-  source_URL: '' # Keep this url path blank
-  local_data_file: ''
-  unzip_dir: ''
+  # source_URL: https://drive.google.com/file/d/1xi8NeALtgToc2GONJuv1AoTwTY62RPVg/view?usp=sharing
+  source_URL: https://github.com/entbappy/Branching-tutorial/raw/master/Chicken-fecal-images.zip
+  local_data_file: artifacts/data_ingestion/data.zip
+  unzip_dir: artifacts/data_ingestion
+  train_dir: ''
+  validation_dir: ''
+  test_dir: ''
+
+# ##### use this when you are loading data from local system
+# # Laptop path
+# data_root_path : 'C:/Users/petersunny.markappa/_00_Peter_Practice_Projects/_02_In_Progress/_02_ML_Projects_Krish_Naik_Course_list/02_DL_MLOPS_DVC_Azure_AWS/DL_Chicken_Disease_Classification_AWS_AZURE_DVC/_data'
+# # Desktop path
+# # data_root_path : 'C:/Users/Nimbus/_00_Peter_Practice_Projects/_02_In_Progress/_02_ML_Projects_Krish_Naik_Course_list/_02_DL_MLOPS_DVC_AZURE_AWS/DL_Chicken_Disease_Classification_AWS_AZURE_DVC/_data'
+
+# data_ingestion:
+#   root_dir: artifacts/data_ingestion
+#   train_dir: train
+#   validation_dir: validation
+#   test_dir: test
+#   source_URL: '' # Keep this url path blank
+#   local_data_file: ''
+#   unzip_dir: ''
