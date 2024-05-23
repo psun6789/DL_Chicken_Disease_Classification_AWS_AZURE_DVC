@@ -2,9 +2,7 @@ artifacts_root: artifacts
 
 
 # ##### use this when you are loading from url else comment this
-
 data_root_path : ''
-# Use this when getting data from url
 data_ingestion:
   root_dir: artifacts/data_ingestion
   # source_URL: https://drive.google.com/file/d/1xi8NeALtgToc2GONJuv1AoTwTY62RPVg/view?usp=sharing
@@ -29,3 +27,12 @@ data_ingestion:
 #   source_URL: '' # Keep this url path blank
 #   local_data_file: ''
 #   unzip_dir: ''
+
+prepare_base_model:
+  root_dir: artifacts/prepare_base_model
+  base_model_path: artifacts/prepare_base_model/base_model.h5
+  update_base_model_path: artifacts/prepare_base_model/base_model_update.h5
+
+
+
+
