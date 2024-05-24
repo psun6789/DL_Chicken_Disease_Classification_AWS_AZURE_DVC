@@ -7,3 +7,71 @@
 [2024-05-23 19:12:00,537: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
 [2024-05-23 19:12:00,616: INFO: stage_02_prepare_base_model: ......... Stage Data Ingestion Stage Completed .......!!!!!!]
 [2024-05-23 19:12:00,616: INFO: stage_02_prepare_base_model: *****************************************************]
+[2024-05-24 14:05:46,776: INFO: stage_03_training: *******************]
+[2024-05-24 14:05:46,778: INFO: stage_03_training: >>>>>> stage Training started <<<<<<]
+[2024-05-24 14:05:46,780: INFO: common: YAML file: C:\Users\petersunny.markappa\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\02_DL_MLOPS_DVC_Azure_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\config\config.yaml loaded successfully]
+[2024-05-24 14:05:46,781: INFO: common: YAML file: C:\Users\petersunny.markappa\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\02_DL_MLOPS_DVC_Azure_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\params.yaml loaded successfully]
+[2024-05-24 14:05:46,781: ERROR: stage_03_training: name 'os' is not defined]
+Traceback (most recent call last):
+  File "C:\Users\petersunny.markappa\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\02_DL_MLOPS_DVC_Azure_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\src\ImageClassification\pipeline\stage_03_training.py", line 37, in <module>
+    obj.main()
+  File "C:\Users\petersunny.markappa\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\02_DL_MLOPS_DVC_Azure_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\src\ImageClassification\pipeline\stage_03_training.py", line 16, in main
+    prepare_callbacks_config = config.get_prepare_callback_config()
+  File "c:\users\petersunny.markappa\_00_peter_practice_projects\_02_in_progress\_02_ml_projects_krish_naik_course_list\02_dl_mlops_dvc_azure_aws\dl_chicken_disease_classification_aws_azure_dvc\src\ImageClassification\config\configuration.py", line 60, in get_prepare_callback_config
+    model_ckpt_dir = os.path.dirname(config.checkpoint_model_filepath)
+NameError: name 'os' is not defined
+[2024-05-24 14:06:26,879: INFO: stage_03_training: *******************]
+[2024-05-24 14:06:26,879: INFO: stage_03_training: >>>>>> stage Training started <<<<<<]
+[2024-05-24 14:06:26,882: INFO: common: YAML file: C:\Users\petersunny.markappa\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\02_DL_MLOPS_DVC_Azure_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\config\config.yaml loaded successfully]
+[2024-05-24 14:06:26,883: INFO: common: YAML file: C:\Users\petersunny.markappa\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\02_DL_MLOPS_DVC_Azure_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\params.yaml loaded successfully]
+[2024-05-24 14:06:26,884: INFO: common: Created Directory at : artifacts\prepare_callbacks\checkpoint_dir]
+[2024-05-24 14:06:26,885: INFO: common: Created Directory at : artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-05-24 14:06:26,886: ERROR: stage_03_training: name 'os' is not defined]
+Traceback (most recent call last):
+  File "C:\Users\petersunny.markappa\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\02_DL_MLOPS_DVC_Azure_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\src\ImageClassification\pipeline\stage_03_training.py", line 37, in <module>
+    obj.main()
+  File "C:\Users\petersunny.markappa\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\02_DL_MLOPS_DVC_Azure_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\src\ImageClassification\pipeline\stage_03_training.py", line 18, in main
+    callback_list = prepare_callbacks.get_tb_ckpt_callbacks()
+  File "c:\users\petersunny.markappa\_00_peter_practice_projects\_02_in_progress\_02_ml_projects_krish_naik_course_list\02_dl_mlops_dvc_azure_aws\dl_chicken_disease_classification_aws_azure_dvc\src\ImageClassification\components\prepare_callbacks.py", line 26, in get_tb_ckpt_callbacks
+    self._create_tb_callbacks,
+  File "c:\users\petersunny.markappa\_00_peter_practice_projects\_02_in_progress\_02_ml_projects_krish_naik_course_list\02_dl_mlops_dvc_azure_aws\dl_chicken_disease_classification_aws_azure_dvc\src\ImageClassification\components\prepare_callbacks.py", line 12, in _create_tb_callbacks
+    tb_running_log_dir = os.path.join(
+NameError: name 'os' is not defined
+[2024-05-24 14:06:54,846: INFO: stage_03_training: *******************]
+[2024-05-24 14:06:54,847: INFO: stage_03_training: >>>>>> stage Training started <<<<<<]
+[2024-05-24 14:06:54,849: INFO: common: YAML file: C:\Users\petersunny.markappa\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\02_DL_MLOPS_DVC_Azure_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\config\config.yaml loaded successfully]
+[2024-05-24 14:06:54,850: INFO: common: YAML file: C:\Users\petersunny.markappa\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\02_DL_MLOPS_DVC_Azure_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\params.yaml loaded successfully]
+[2024-05-24 14:06:54,852: INFO: common: Created Directory at : artifacts\training]
+[2024-05-24 14:06:55,059: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-05-24 14:06:55,065: ERROR: stage_03_training: [WinError 3] The system cannot find the path specified: 'artifacts\\data_ingestion\\chicken-fecal-images']
+Traceback (most recent call last):
+  File "C:\Users\petersunny.markappa\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\02_DL_MLOPS_DVC_Azure_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\src\ImageClassification\pipeline\stage_03_training.py", line 37, in <module>
+    obj.main()
+  File "C:\Users\petersunny.markappa\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\02_DL_MLOPS_DVC_Azure_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\src\ImageClassification\pipeline\stage_03_training.py", line 24, in main
+    training.train_valid_generator()
+  File "c:\users\petersunny.markappa\_00_peter_practice_projects\_02_in_progress\_02_ml_projects_krish_naik_course_list\02_dl_mlops_dvc_azure_aws\dl_chicken_disease_classification_aws_azure_dvc\src\ImageClassification\components\training.py", line 36, in train_valid_generator
+    self.valid_generator = valid_datagenerator.flow_from_directory(
+  File "C:\Users\petersunny.markappa\Anaconda3\envs\DLMLops_DVC_Azure_AWS\lib\site-packages\keras\src\legacy\preprocessing\image.py", line 1138, in flow_from_directory
+    return DirectoryIterator(
+  File "C:\Users\petersunny.markappa\Anaconda3\envs\DLMLops_DVC_Azure_AWS\lib\site-packages\keras\src\legacy\preprocessing\image.py", line 453, in __init__
+    for subdir in sorted(os.listdir(directory)):
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'artifacts\\data_ingestion\\chicken-fecal-images'
+[2024-05-24 14:09:20,082: INFO: stage_01_data_ingestion: ........ Stage Data Ingestion Stage started........!!!!!!!!]
+[2024-05-24 14:09:20,085: INFO: common: YAML file: C:\Users\petersunny.markappa\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\02_DL_MLOPS_DVC_Azure_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\config\config.yaml loaded successfully]
+[2024-05-24 14:09:20,086: INFO: common: YAML file: C:\Users\petersunny.markappa\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\02_DL_MLOPS_DVC_Azure_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\params.yaml loaded successfully]
+[2024-05-24 14:09:38,836: INFO: stage_01_data_ingestion: ......... Stage Data Ingestion Stage Completed .......!!!!!!]
+[2024-05-24 14:10:02,611: INFO: stage_02_prepare_base_model: *****************************************************]
+[2024-05-24 14:10:02,612: INFO: stage_02_prepare_base_model: ........ Stage Data Ingestion Stage started........!!!!!!!!]
+[2024-05-24 14:10:02,614: INFO: common: YAML file: C:\Users\petersunny.markappa\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\02_DL_MLOPS_DVC_Azure_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\config\config.yaml loaded successfully]
+[2024-05-24 14:10:02,615: INFO: common: YAML file: C:\Users\petersunny.markappa\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\02_DL_MLOPS_DVC_Azure_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\params.yaml loaded successfully]
+[2024-05-24 14:10:02,863: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-05-24 14:10:02,928: INFO: stage_02_prepare_base_model: ......... Stage Data Ingestion Stage Completed .......!!!!!!]
+[2024-05-24 14:10:02,928: INFO: stage_02_prepare_base_model: *****************************************************]
+[2024-05-24 14:10:13,648: INFO: stage_03_training: *******************]
+[2024-05-24 14:10:13,649: INFO: stage_03_training: >>>>>> stage Training started <<<<<<]
+[2024-05-24 14:10:13,651: INFO: common: YAML file: C:\Users\petersunny.markappa\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\02_DL_MLOPS_DVC_Azure_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\config\config.yaml loaded successfully]
+[2024-05-24 14:10:13,653: INFO: common: YAML file: C:\Users\petersunny.markappa\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\02_DL_MLOPS_DVC_Azure_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\params.yaml loaded successfully]
+[2024-05-24 14:10:13,829: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-05-24 14:10:29,190: INFO: stage_03_training: >>>>>> stage Training completed <<<<<<
+
+x==========x]
