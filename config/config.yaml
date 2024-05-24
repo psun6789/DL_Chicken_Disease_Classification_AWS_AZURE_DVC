@@ -41,3 +41,5 @@ perpare_callbacks:
 training:
   root_dir: artifacts/training
   trained_model_path: artifacts/training/model.keras
+
+
