@@ -25,14 +25,5 @@ conda create --name VIRTUAL_ENV python==3.9 -->
 <!-- DVC Relationship -->
 <!-- dvc dag -->
 
-<!-- ERC Repo to store/save docker Image -->
-<!-- 851725536163.dkr.ecr.eu-north-1.amazonaws.com/chicken
-
-
-
-6. Configure EC2 as self-hosted runner:
-
-
-7. Setup github secrets: -->
-
-
+<!-- chicken-classification -->
+<!-- 851725536163.dkr.ecr.us-east-1.amazonaws.com/chicken-classification -->
