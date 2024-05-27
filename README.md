@@ -31,3 +31,15 @@ dvc dag
 
 
 6. Configure EC2 as self-hosted runner:
+
+
+7. Setup github secrets:
+AWS_ACCESS_KEY_ID=
+
+AWS_SECRET_ACCESS_KEY=
+
+AWS_REGION = us-east-1
+
+AWS_ECR_LOGIN_URI = demo>>  851725536163.dkr.ecr.eu-north-1.amazonaws.com
+
+ECR_REPOSITORY_NAME = chicken_disease_classification
