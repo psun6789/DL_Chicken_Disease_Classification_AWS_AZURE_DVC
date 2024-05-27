@@ -25,7 +25,9 @@ dvc repro
 <!-- DVC Relationship -->
 dvc dag
 
-
-
 <!-- ERC Repo to store/save docker Image -->
 851725536163.dkr.ecr.eu-north-1.amazonaws.com/chicken_disease_classification
+
+
+
+6. Configure EC2 as self-hosted runner:
