@@ -26,7 +26,7 @@ dvc repro
 dvc dag
 
 <!-- ERC Repo to store/save docker Image -->
-851725536163.dkr.ecr.eu-north-1.amazonaws.com/chicken_disease_classification
+851725536163.dkr.ecr.eu-north-1.amazonaws.com/chicken
 
 
 
@@ -34,12 +34,5 @@ dvc dag
 
 
 7. Setup github secrets:
-AWS_ACCESS_KEY_ID=
 
-AWS_SECRET_ACCESS_KEY=
 
-AWS_REGION = us-east-1
-
-AWS_ECR_LOGIN_URI = demo>>  851725536163.dkr.ecr.eu-north-1.amazonaws.com
-
-ECR_REPOSITORY_NAME = chicken_disease_classification
