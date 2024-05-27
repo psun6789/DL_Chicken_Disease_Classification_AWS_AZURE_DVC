@@ -1,4 +1,3 @@
-# Requirements
 tensorflow
 pandas
 dvc
