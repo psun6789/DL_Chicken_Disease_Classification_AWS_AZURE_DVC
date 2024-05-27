@@ -279,3 +279,43 @@ FileNotFoundError: [Errno 2] Unable to synchronously open file (unable to open f
 [2024-05-24 17:26:30,443: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x]
+[2024-05-27 12:29:05,265: INFO: stage_01_data_ingestion: ........ Stage Data Ingestion Stage started........!!!!!!!!]
+[2024-05-27 12:29:05,267: INFO: common: YAML file: C:\Users\petersunny.markappa\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\02_DL_MLOPS_DVC_Azure_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\config\config.yaml loaded successfully]
+[2024-05-27 12:29:05,269: INFO: common: YAML file: C:\Users\petersunny.markappa\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\02_DL_MLOPS_DVC_Azure_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\params.yaml loaded successfully]
+[2024-05-27 12:29:05,270: INFO: common: Created Directory at : artifacts]
+[2024-05-27 12:29:08,849: INFO: stage_01_data_ingestion: ......... Stage Data Ingestion Stage Completed .......!!!!!!]
+[2024-05-27 12:29:17,301: INFO: stage_02_prepare_base_model: *****************************************************]
+[2024-05-27 12:29:17,301: INFO: stage_02_prepare_base_model: ........ Stage Data Ingestion Stage started........!!!!!!!!]
+[2024-05-27 12:29:17,303: INFO: common: YAML file: C:\Users\petersunny.markappa\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\02_DL_MLOPS_DVC_Azure_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\config\config.yaml loaded successfully]
+[2024-05-27 12:29:17,304: INFO: common: YAML file: C:\Users\petersunny.markappa\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\02_DL_MLOPS_DVC_Azure_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\params.yaml loaded successfully]
+[2024-05-27 12:29:17,305: INFO: common: Created Directory at : artifacts/prepare_base_model]
+[2024-05-27 12:29:17,585: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-05-27 12:29:17,642: INFO: stage_02_prepare_base_model: ......... Stage Data Ingestion Stage Completed .......!!!!!!]
+[2024-05-27 12:29:17,643: INFO: stage_02_prepare_base_model: *****************************************************]
+[2024-05-27 12:29:20,612: INFO: stage_03_training: *******************]
+[2024-05-27 12:29:20,612: INFO: stage_03_training: >>>>>> stage Training started <<<<<<]
+[2024-05-27 12:29:20,615: INFO: common: YAML file: C:\Users\petersunny.markappa\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\02_DL_MLOPS_DVC_Azure_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\config\config.yaml loaded successfully]
+[2024-05-27 12:29:20,617: INFO: common: YAML file: C:\Users\petersunny.markappa\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\02_DL_MLOPS_DVC_Azure_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\params.yaml loaded successfully]
+[2024-05-27 12:29:20,619: INFO: common: Created Directory at : artifacts\prepare_callbacks\checkpoint_dir]
+[2024-05-27 12:29:20,619: INFO: common: Created Directory at : artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-05-27 12:29:20,620: INFO: common: Created Directory at : artifacts\training]
+[2024-05-27 12:29:20,797: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-05-27 12:29:36,521: INFO: stage_03_training: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-05-27 12:29:39,696: INFO: stage_04_evaluation: *******************]
+[2024-05-27 12:29:39,697: INFO: stage_04_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-05-27 12:29:39,700: INFO: common: YAML file: C:\Users\petersunny.markappa\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\02_DL_MLOPS_DVC_Azure_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\config\config.yaml loaded successfully]
+[2024-05-27 12:29:39,702: INFO: common: YAML file: C:\Users\petersunny.markappa\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\02_DL_MLOPS_DVC_Azure_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\params.yaml loaded successfully]
+[2024-05-27 12:29:45,316: INFO: common: json file save at : scores.json]
+[2024-05-27 12:29:45,316: INFO: stage_04_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-05-27 12:32:25,699: INFO: stage_04_evaluation: *******************]
+[2024-05-27 12:32:25,700: INFO: stage_04_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-05-27 12:32:25,702: INFO: common: YAML file: C:\Users\petersunny.markappa\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\02_DL_MLOPS_DVC_Azure_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\config\config.yaml loaded successfully]
+[2024-05-27 12:32:25,703: INFO: common: YAML file: C:\Users\petersunny.markappa\_00_Peter_Practice_Projects\_02_In_Progress\_02_ML_Projects_Krish_Naik_Course_list\02_DL_MLOPS_DVC_Azure_AWS\DL_Chicken_Disease_Classification_AWS_AZURE_DVC\params.yaml loaded successfully]
+[2024-05-27 12:32:31,124: INFO: common: json file save at : scores.json]
+[2024-05-27 12:32:31,124: INFO: stage_04_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]

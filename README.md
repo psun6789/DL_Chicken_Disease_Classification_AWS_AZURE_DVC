@@ -13,5 +13,9 @@
 9. UPDATE dvc.yaml
 
 
+<!-- To run DVC pipeline -->
+dvc repro 
+<!-- DVC Relationship -->
+dvc dag
 
 
