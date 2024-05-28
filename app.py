@@ -14,19 +14,19 @@ class ClientApp:
     def __init__(self):
         self.filename = 'inputImage.jpg'
         self.classifier = PredictionPipeline(self.filename)
-    
+
     @app.route('/', methods=['GET'])
     @cross_origin()
     def home():
         return render_template('index.html')
-    
+
     @app.route('/train', methods=['GET', 'POST'])
     @cross_origin()
     def trainRout():
         os.system('Python main.py')
-        # os.system('dvc repro') # Use this if you are using dvc to run 
+        # os.system('dvc repro') # Use this if you are using dvc to run
         return 'Training Done Successfully'
-    
+
     @app.route('/predict', methods=['POST'])
     @cross_origin()
     def predictionRout():
@@ -34,7 +34,7 @@ class ClientApp:
         decodeImage(image, clApp.filename)
         result = clApp.classifier.predict()
         return jsonify(result)
-    
+
 if __name__ == '__main__':
     clApp = ClientApp()
     # app.run(host='0.0.0.0', port=8080) #local host

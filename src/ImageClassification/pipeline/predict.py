@@ -6,7 +6,7 @@ from tensorflow.keras.preprocessing import image
 class PredictionPipeline:
     def __init__(self, filename):
         self.filename = filename
-    
+
     def predict(self):
         # Load model
         model = load_model(os.path.join('artifacts', 'training', 'model.keras'))
@@ -19,8 +19,8 @@ class PredictionPipeline:
         print(result)
 
         if result[0] == 1:
-            prediction = 'Healthy'
+            prediction = 'Coccidiosis'
             return [{'image': prediction}]
         else:
-            prediction = 'Coccidiosis'
+            prediction = 'Healthy'
             return [{'image': prediction}]

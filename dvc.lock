@@ -41,7 +41,7 @@ stages:
     outs:
     - path: artifacts/prepare_base_model
       hash: md5
-      md5: b3d6773cab1f38daab7b771ce110b60d.dir
+      md5: acf7bf91fadd960a1ccf9eaef6137556.dir
       size: 59143624
       nfiles: 1
   training:
@@ -54,7 +54,7 @@ stages:
       nfiles: 390
     - path: artifacts/prepare_base_model
       hash: md5
-      md5: b3d6773cab1f38daab7b771ce110b60d.dir
+      md5: acf7bf91fadd960a1ccf9eaef6137556.dir
       size: 59143624
       nfiles: 1
     - path: config/config.yaml
@@ -73,7 +73,7 @@ stages:
       params.yaml:
         AUGMENTATION: true
         BATCH_SIZE: 16
-        EPOCHS: 1
+        EPOCHS: 10
         IMAGE_SIZE:
         - 224
         - 224
@@ -81,7 +81,7 @@ stages:
     outs:
     - path: artifacts/training/model.keras
       hash: md5
-      md5: f9d7a52601abb91714c1fd201c1cc303
+      md5: 5e1d8d90e518d0d2751e214f1e58582a
       size: 59535642
   evaluation:
     cmd: python src/ImageClassification/pipeline/stage_04_evaluation.py
@@ -93,7 +93,7 @@ stages:
       nfiles: 390
     - path: artifacts/training/model.keras
       hash: md5
-      md5: f9d7a52601abb91714c1fd201c1cc303
+      md5: 5e1d8d90e518d0d2751e214f1e58582a
       size: 59535642
     - path: config/config.yaml
       hash: md5
@@ -113,5 +113,5 @@ stages:
     outs:
     - path: scores.json
       hash: md5
-      md5: 1bbdba079624cb0a58ca6089e5a09ac9
-      size: 73
+      md5: 69a13c6692848e133a116729d25baffb
+      size: 74
